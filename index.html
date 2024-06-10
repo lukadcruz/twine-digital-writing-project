@@ -15,6 +15,8 @@ The floorboards, a jagged array of wood far decayed, pierce the soles of your fe
 
 It’s hard to imagine anything has ever been touched. 
 
+(enchant: ?passage&#39;s chars, via (t8n-delay:pos * 60) +(t8n-skip:100s) + (t8n:&#39;instant&#39;))
+
 </tw-passagedata><tw-passagedata pid="2" name="cardboard boxes" tags="" position="625,475" size="100,100">You brush off the cobwebs, and pull the tabs of the boxes that are already half-open. Trophies; Most Valuable Player 1986, Fairest Player 1986, a Championship medal. Accolades from Father&#39;s heyday. Nobody could pitch like him. It hurts to see them rot away like this. Perhaps you&#39;ll hang them up in the new house; it&#39;s what he would&#39;ve wanted. 
 
 You put the accolades away, and shift the boxes back into the corner. You see some of Father&#39;s old books nestled on (link: &quot;the shelf&quot;)[(goto: &quot;weathered bookshelf in the corner&quot;)weathered bookshelf in the corner].</tw-passagedata><tw-passagedata pid="3" name="weathered bookshelf in the corner" tags="" position="737.5,475" size="100,100">This mahogany shelf is chipped and unstable across its whole body. It&#39;s tall and slender, with an empty class cabinet atop its row of shelves. There&#39;s a portait of Father in his baseball uniform. His smile is bright, and it fills you with reverence. On the second shelf from the bottom, there are two books.
@@ -104,7 +106,7 @@ New Mexico Vipers 6
 Tennessee Tigers 5]
 (align:&quot;=&gt;&lt;=&quot;)[3](align:&quot;==&gt;&quot;)[(link: &quot;Close book&quot;)[(go-to: &quot;page 4&quot;)]]</tw-passagedata><tw-passagedata pid="16" name="page 4" tags="" position="1000,1175" size="100,100">You sit there, blankly, holding the almanac and staring distantly at the box of Father&#39;s accolades. You re-examine the cobwebs, the dust, the rusted gold on the medals, and wonder if perhaps this is their true legacy. When you close your eyes, you see flashes of his pitching, but you can&#39;t get your mind to hold focus on it for long enough. As you resume your gaze, you stare at Father&#39;s portrait frame; tears seem to drop from your eyes, but your face remains still. As you look at his photographed smile, you hear echoes of footsteps walking towards the attic ladder. You recognise that sound from anywhere.
 
-[[End]].</tw-passagedata><tw-passagedata pid="17" name="End" tags="" position="1000,1300" size="100,100">(link: &quot;Play again&quot;)[(goto: &quot;The Attic&quot;</tw-passagedata></tw-storydata>
+[[End]].</tw-passagedata><tw-passagedata pid="17" name="End" tags="" position="1000,1300" size="100,100">(link: &quot;Play again&quot;)[(go-to:&quot;The Attic&quot;)]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
