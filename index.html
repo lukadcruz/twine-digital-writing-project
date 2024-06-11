@@ -9,11 +9,29 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play dearfather.</tw-noscript></noscript></tw-story>
-<tw-storydata name="dearfather" startnode="1" creator="Twine" creator-version="2.8.1" format="Harlowe" format-version="3.3.8" ifid="C924D048-78FD-4207-B6B8-DC4AE45B560E" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="The Attic" tags="" position="675,350" size="100,100">This dark old place seethes with a coldness. A feeling familiar to you, but unplaceable. You stand in Father&#39;s attic. It&#39;s been hard since he passed, but you feel it upon you to look through his old possessions to take with you. 
+<tw-storydata name="dearfather" startnode="1" creator="Twine" creator-version="2.8.1" format="Harlowe" format-version="3.3.8" ifid="C924D048-78FD-4207-B6B8-DC4AE45B560E" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-story[tags~="attic"] {  /* the tag added in step 2 */
+  background-image: url(./images/attic.jpg);  /* the image added in step 1 */
+  background-size: cover;  /* cover the whole element */
+  background-repeat: no-repeat;  /* do not repeat the background image */
+}
 
-The floorboards, a jagged array of wood far decayed, pierce the soles of your feet. Cobwebs drape over the edges of [[cardboard boxes]], and hang in meticulous arrangement from the [[weathered bookshelf in the corner]]. 
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+  
+tw-story {
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: bold;
+  color: #FFF;
+}
 
-It’s hard to imagine anything has ever been touched. 
+.story-image {
+  width: 100%;
+}
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="The Attic" tags="attic" position="675,350" size="100,100">(align:&quot;&lt;==&quot;)+(box:&quot;XXX==&quot;)[This dark old place seethes with a coldness. A feeling familiar to you, but unplaceable. You stand in Father&#39;s attic. It&#39;s been hard since he passed, but you feel it upon you to look through his old possessions to take with you. 
+
+The floorboards, a jagged array of wood far decayed, pierce the soles of your feet. Cobwebs drape over the edges of [[cardboard boxes]], and hang in meticulous arrangement from the [[weathered bookshelf in the corner]].
+
+It’s hard to imagine anything has ever been touched.]
 
 (enchant: ?passage&#39;s chars, via (t8n-delay:pos * 60) +(t8n-skip:100s) + (t8n:&#39;instant&#39;))
 
