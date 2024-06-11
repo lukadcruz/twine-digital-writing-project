@@ -21,6 +21,24 @@ tw-story[tags~="boxes"] {  /* the tag added in step 2 */
   background-repeat: no-repeat;  /* do not repeat the background image */
 }
 
+tw-story[tags~="bookshelf"] {  /* the tag added in step 2 */
+  background-image: url(./images/bookshelf.jpg);  /* the image added in step 1 */
+  background-size: cover;  /* cover the whole element */
+  background-repeat: no-repeat;  /* do not repeat the background image */
+}
+
+tw-story[tags~="healthbook"] {  /* the tag added in step 2 */
+  background-image: url(./images/healthbook.jpg);  /* the image added in step 1 */
+  background-size: cover;  /* cover the whole element */
+  background-repeat: no-repeat;  /* do not repeat the background image */
+}
+
+tw-story[tags~="almanac"] {  /* the tag added in step 2 */
+  background-image: url(./images/almanac.jpg);  /* the image added in step 1 */
+  background-size: cover;  /* cover the whole element */
+  background-repeat: no-repeat;  /* do not repeat the background image */
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
   
 tw-story {
@@ -45,14 +63,14 @@ It’s hard to imagine anything has ever been touched.]
 
 You put the accolades away, and shift the boxes back into the corner. You see some of Father&#39;s old books nestled on (link: &quot;the shelf&quot;)[(goto: &quot;weathered bookshelf in the corner&quot;)weathered bookshelf in the corner].]
 
-(enchant: ?passage&#39;s chars, via (t8n-delay:pos * 60) +(t8n-skip:100s) + (t8n:&#39;instant&#39;))</tw-passagedata><tw-passagedata pid="3" name="weathered bookshelf in the corner" tags="" position="737.5,475" size="100,100">This mahogany shelf is chipped and unstable across its whole body. It&#39;s tall and slender, with an empty class cabinet atop its row of shelves. There&#39;s a portrait of Father in his baseball uniform. His smile is bright, and it fills you with reverence. On the second shelf from the bottom, there are two books.
+(enchant: ?passage&#39;s chars, via (t8n-delay:pos * 60) +(t8n-skip:100s) + (t8n:&#39;instant&#39;))</tw-passagedata><tw-passagedata pid="3" name="weathered bookshelf in the corner" tags="bookshelf" position="737.5,475" size="100,100">(align:&quot;&lt;==&quot;)+(box:&quot;X=&quot;)[This mahogany shelf is chipped and unstable across its whole body. It&#39;s tall and slender, encasing its books with a glass cabinet. On the right, there&#39;s a portrait of Father pitching in his baseball uniform. It fills you with reverence. On the top left shelf, there are two books.
 
 1. [[The Complete Almanac of the National Baseball Championship 1987]]
 2. [[The Sports Health Handbook]]
+]
+(enchant: ?passage&#39;s chars, via (t8n-delay:pos * 60) +(t8n-skip:100s) + (t8n:&#39;instant&#39;))</tw-passagedata><tw-passagedata pid="4" name="The Complete Almanac of the National Baseball Championship 1987" tags="almanac" position="737.5,600" size="100,100">(align:&quot;&lt;==&quot;)+(box:&quot;X=&quot;)[As you grab hold of the book, the dusty film that paints its cover seems to evaporate into the air. It&#39;s thin, no more than the length of a magazine, but the heaviness of it surprises it. The edges cling onto the the lining on your palms, and as you [[turn the page]], the paper creeks with a weight that beckons to close itself.]
 
-(enchant: ?passage&#39;s chars, via (t8n-delay:pos * 60) +(t8n-skip:100s) + (t8n:&#39;instant&#39;))</tw-passagedata><tw-passagedata pid="4" name="The Complete Almanac of the National Baseball Championship 1987" tags="" position="737.5,600" size="100,100">As you grab hold of the book, the dusty film that paints its cover seems to evaporate into the air. It&#39;s thin, no more than the length of a magazine, but the heaviness of it surprises it. The edges cling onto the the lining on your palms, and as you [[turn the page]], the paper creeks with a weight that beckons to close itself.
-
-(enchant: ?passage&#39;s chars, via (t8n-delay:pos * 60) +(t8n-skip:100s) + (t8n:&#39;instant&#39;))</tw-passagedata><tw-passagedata pid="5" name="The Sports Health Handbook" tags="" position="612.5,600" size="100,100">You never understood why Father held onto this. Tattered, barely held together by its spine, and mostly empty bar a few recipes for sports drinks and muscle recovery tonics. He always said they were the key to life. And the other book, (link: &quot;the almanac&quot;)[(goto: &quot;The Complete Almanac of the National Baseball Championship 1987&quot;)The Complete Almanac of the National Baseball Championship 1987], you don&#39;t recognise. Clumps of dust have calcified over its cover; it seems this book has been up here a while.
+(enchant: ?passage&#39;s chars, via (t8n-delay:pos * 60) +(t8n-skip:100s) + (t8n:&#39;instant&#39;))</tw-passagedata><tw-passagedata pid="5" name="The Sports Health Handbook" tags="healthbook" position="612.5,600" size="100,100">(align:&quot;&lt;==&quot;)+(box:&quot;X=&quot;)[You never understood why Father held onto this. Tattered, barely held together by its spine, and mostly empty bar a few recipes for sports drinks and muscle recovery tonics. He always said they were the key to life. And the other book, (link: &quot;the almanac&quot;)[(goto: &quot;The Complete Almanac of the National Baseball Championship 1987&quot;)The Complete Almanac of the National Baseball Championship 1987], you don&#39;t recognise. Clumps of dust have calcified over its cover; it seems this book has been up here a while.]
 
 (enchant: ?passage&#39;s chars, via (t8n-delay:pos * 60) +(t8n-skip:100s) + (t8n:&#39;instant&#39;))</tw-passagedata><tw-passagedata pid="6" name="turn the page" tags="" position="737.5,725" size="100,100">(align:&quot;&lt;==&quot;)[//National Baseball Championship Season 1987//
 
