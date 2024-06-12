@@ -45,6 +45,24 @@ tw-story[tags~="memory"] {  /* the tag added in step 2 */
   background-repeat: no-repeat;  /* do not repeat the background image */
 }
 
+tw-story[tags~="thegame"] {  /* the tag added in step 2 */
+  background-image: url(./images/thegame.jpg);  /* the image added in step 1 */
+  background-size: cover;  /* cover the whole element */
+  background-repeat: no-repeat;  /* do not repeat the background image */
+}
+
+tw-story[tags~="injury"] {  /* the tag added in step 2 */
+  background-image: url(./images/injury.jpg);  /* the image added in step 1 */
+  background-size: cover;  /* cover the whole element */
+  background-repeat: no-repeat;  /* do not repeat the background image */
+}
+
+tw-story[tags~="backyard"] {  /* the tag added in step 2 */
+  background-image: url(./images/backyard.jpg);  /* the image added in step 1 */
+  background-size: cover;  /* cover the whole element */
+  background-repeat: no-repeat;  /* do not repeat the background image */
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
   
 tw-story {
@@ -142,11 +160,9 @@ You brush your hand against the page. There&#39;s a prickle to it, a resistance 
 
 You brush your hand against the page. There&#39;s a prickle to it, a resistance that stops your fingers in their tracks, hovering over a distant scoreline between the Cobras and the Vipers. Your ears begin to ring, pulse as the weight of the page sucks you in, and drifts you [[into memory]].
 
-(enchant: ?passage&#39;s chars, via (t8n-delay:pos * 60) +(t8n-skip:100s) + (t8n:&#39;instant&#39;))</tw-passagedata><tw-passagedata pid="11" name="into memory" tags="" position="725,1050" size="100,100">It was rare if ever that you could see the sun from Stanford Stadium. The ball always seemed to disappear in the clouds. Father would always say that if a hitter could soar one off into the grey sky, the angels would catch it and keep it for when you arrived in Heaven. That day, a beautiful day, there was no such holy comfort. 
+(enchant: ?passage&#39;s chars, via (t8n-delay:pos * 60) +(t8n-skip:100s) + (t8n:&#39;instant&#39;))</tw-passagedata><tw-passagedata pid="11" name="into memory" tags="thegame" position="725,1050" size="100,100">(align:&quot;&lt;==&quot;)+(box:&quot;XXX==&quot;)[It was rare if ever that you could see the sun from Stanford Stadium. The ball always seemed to disappear in the clouds. Father would always say that if a hitter could soar one off into the grey sky, the angels would catch it and keep it for when you arrived in Heaven. That day, a beautiful day, there was [[no such holy comfort.]] ]
 
-1987. The day after your 6th birthday. It&#39;s 1-0. Deep into the final innings, the Cobras lead, with a chance for playoffs if they can secure victory. Father is on the verge of shutting out the entire team, but the Vipers star, &#39;&#39;Rich Parker&#39;&#39;, now stands at-bat. You sit where you had always been, behind the hitter with a clear view of Father pitching. You could&#39;ve sworn it happened on a hot day, but this time, you&#39;re hands sting with an numbing frost. As Father winds up to pitch, with the season on the line, the crowd extinguishes the tension with [[a gasp]]. 
-
-(enchant: ?passage&#39;s chars, via (t8n-delay:pos * 60) +(t8n-skip:100s) + (t8n:&#39;instant&#39;))</tw-passagedata><tw-passagedata pid="12" name="a gasp" tags="" position="725,1175" size="100,100">You remembered it as heatstroke, but today the crowd that huddles around a collapsed &#39;&#39;Rich Parker&#39;&#39; seems larger, more frantic, and somehow more real. Your body beckons to move forward but with every desparate exertion you find yourself tiring in stasis. 
+(enchant: ?passage&#39;s chars, via (t8n-delay:pos * 60) +(t8n-skip:100s) + (t8n:&#39;instant&#39;))</tw-passagedata><tw-passagedata pid="12" name="a gasp" tags="injury" position="725,1175" size="100,100">You remembered it as heatstroke, but today the crowd that huddles around a collapsed &#39;&#39;Rich Parker&#39;&#39; seems larger, more frantic, and somehow more real. Your body beckons to move forward but with every desparate exertion you find yourself tiring in stasis. 
 
 A familiar hand washes over to cover your face, blocking your eyes from the horror on the pitch. As a child, your memory ends in palm of this hand, but today you are beginning [[to see]].
 
@@ -159,7 +175,7 @@ VIPERS CONSTRICTED BY COBRAS IN SNAKE BATTLE, PARKER HOSPITALIZED AFTER DELIBERA
 
 (align:&quot;=&gt;&lt;=&quot;)[13](align:&quot;==&gt;&quot;)[(link: &quot;Turn the page&quot;)[(go-to: &quot;your idol&quot;)]]
 
-(enchant: ?passage&#39;s chars, via (t8n-delay:pos * 60) +(t8n-skip:100s) + (t8n:&#39;instant&#39;))</tw-passagedata><tw-passagedata pid="14" name="your idol" tags="" position="875,1100" size="100,100">As you turn the page, the thin paper crumbles into a powder that stains your fingers. You look down to inspect your hand and find a baseball. You look up, and Father&#39;s smile awaits your gaze. This has always been a happy memory, the last happy memory, but as you throw the baseball back you can feel the imprint of its corruption. You remember your laugh, your zeal, and of course Father&#39;s smile still there for you. Everything is as it was, but today, this memory seems to [[fade away]].
+(enchant: ?passage&#39;s chars, via (t8n-delay:pos * 60) +(t8n-skip:100s) + (t8n:&#39;instant&#39;))</tw-passagedata><tw-passagedata pid="14" name="your idol" tags="backyard" position="875,1100" size="100,100">(align:&quot;&lt;==&quot;)+(box:&quot;X=&quot;)[As you turn the page, the thin paper crumbles into a powder that stains your fingers. You look down to inspect your hand and find a baseball. You look up, and Father&#39;s smile awaits your gaze. This has always been a happy memory, the last happy memory, but as you throw the baseball back you can feel the imprint of its corruption. You remember your laugh, your zeal, and of course Father&#39;s smile still there for you. Everything is as it was, but today, this memory seems to [[fade away]].]
 
 (enchant: ?passage&#39;s chars, via (t8n-delay:pos * 60) +(t8n-skip:100s) + (t8n:&#39;instant&#39;))</tw-passagedata><tw-passagedata pid="15" name="fade away" tags="" position="875,1225" size="100,100">(align:&quot;&lt;==&quot;)[//National Baseball Championship Season 1987//
 
@@ -182,7 +198,9 @@ Tennessee Tigers 5]
 
 [[End]].]
 
-(enchant: ?passage&#39;s chars, via (t8n-delay:pos * 60) +(t8n-skip:100s) + (t8n:&#39;instant&#39;))</tw-passagedata><tw-passagedata pid="17" name="End" tags="" position="1000,1300" size="100,100">(link: &quot;Play again&quot;)[(go-to:&quot;The Attic&quot;)]</tw-passagedata></tw-storydata>
+(enchant: ?passage&#39;s chars, via (t8n-delay:pos * 60) +(t8n-skip:100s) + (t8n:&#39;instant&#39;))</tw-passagedata><tw-passagedata pid="17" name="End" tags="" position="1000,1300" size="100,100">(link: &quot;Play again&quot;)[(go-to:&quot;The Attic&quot;)]</tw-passagedata><tw-passagedata pid="18" name="no such holy comfort." tags="thegame" position="600,1175" size="100,100">(align:&quot;&lt;==&quot;)+(box:&quot;XXX==&quot;)[1987. The day after your 6th birthday. It&#39;s 1-0. Deep into the final innings, the Cobras lead, with a chance for playoffs if they can secure victory. Father is on the verge of shutting out the entire team, but the Vipers star, &#39;&#39;Rich Parker&#39;&#39;, now stands at-bat. You sit where you had always been, behind the hitter with a clear view of Father pitching. You could&#39;ve sworn it happened on a hot day, but this time, you&#39;re hands sting with an numbing frost. As Father winds up to pitch, with the season on the line, the crowd extinguishes the tension with [[a gasp]]. ]
+
+(enchant: ?passage&#39;s chars, via (t8n-delay:pos * 60) +(t8n-skip:100s) + (t8n:&#39;instant&#39;))</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
